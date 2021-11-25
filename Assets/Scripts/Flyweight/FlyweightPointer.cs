@@ -6,7 +6,7 @@ public class FlyweightPointer
 {
     public static readonly Flyweight bullet = new Flyweight
     {
-        speed = 8,
+        speed = 1,
         asteroidsLayer = 10,
         boundsLayer = 11,
     };

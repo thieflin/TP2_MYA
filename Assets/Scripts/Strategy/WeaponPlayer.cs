@@ -39,7 +39,7 @@ public class WeaponPlayer : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButtonDown(0) && _canShoot)
+        if (Input.GetMouseButton(0) && _canShoot)
         {
             _currentWeapon.Shoot();
             StartCoroutine(WaitShootFireRate());

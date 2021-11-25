@@ -8,8 +8,7 @@ public class Bullet : MonoBehaviour
 
     public void Update()
     {
-        transform.position += Vector3.up * Time.deltaTime * FlyweightPointer.bullet.speed;
-
+        transform.position += transform.forward * Time.deltaTime * FlyweightPointer.bullet.speed;
     }
 
     public void OnTriggerEnter(Collider other) //Si colision con layer asteroids o los bounds, retorno la bala al pool

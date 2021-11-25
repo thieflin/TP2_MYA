@@ -493,7 +493,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c21859c22a72a42bb5b6b560a3c326, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _model: {fileID: 221179923}
   _controller: {fileID: 221179922}
 --- !u!114 &221179920
 MonoBehaviour:
@@ -1402,8 +1401,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDamage: 0
-  fireRate: 0.3
-  ammount: 5
+  fireRate: 0.5
+  _ammount: 100
+  _bulletAmmount: 5
+  _startAngle: 0
+  _endAngle: 360
+  radious: 180
+  rotate: 5
+  algo: 72
 --- !u!1 &750152186
 GameObject:
   m_ObjectHideFlags: 0
