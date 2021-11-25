@@ -20,7 +20,7 @@ public class Misil : MonoBehaviour
 
     public void OnTriggerEnter(Collider other) //Si colision con layer asteroids, retorno el misil al pool
     {
-        if (other.gameObject.layer == FlyweightPointer.misil.asteroidsLayer) //Devuelve al pool cuando colisiona con un asteroide
+        if (other.gameObject.layer == FlyweightPointer.misil.boundsLayer) //Devuelve al pool cuando colisiona con un asteroide
         {
             misilHp --;
             if(misilHp == 0)

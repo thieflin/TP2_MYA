@@ -7,7 +7,6 @@ public class MissileWeapon : Weapon, ITurnsTP<Misil, Misil>
 
     public ObjectPool<Misil> poolMisil;
     private IFactoryT<Misil> _factoryMisils;
-    [SerializeField] private int ammount = 0;
     public void Awake()
     {
         _factoryMisils = new MisilFactory();
