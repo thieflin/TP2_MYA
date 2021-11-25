@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Flyweight : MonoBehaviour
 { 
-    public int asteroidsLayer;
+    public int playerLayer;
     public int boundsLayer;
     public int speed;
 }

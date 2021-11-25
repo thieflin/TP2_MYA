@@ -4,8 +4,8 @@ using UnityEngine;
 
 public abstract class Weapon : MonoBehaviour
 {
-    public int bulletDamage;
     public float fireRate;
+    public int ammount;
 
     public virtual void Shoot() //Dispara
     {

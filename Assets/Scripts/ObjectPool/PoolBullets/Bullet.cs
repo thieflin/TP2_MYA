@@ -13,7 +13,7 @@ public class Bullet : MonoBehaviour
 
     public void OnTriggerEnter(Collider other) //Si colision con layer asteroids o los bounds, retorno la bala al pool
     {
-        if(other.gameObject.layer == FlyweightPointer.bullet.asteroidsLayer || other.gameObject.layer == FlyweightPointer.bullet.boundsLayer)
+        if(other.gameObject.layer == FlyweightPointer.bullet.boundsLayer)
         {
             bp.Return(this);
         }
