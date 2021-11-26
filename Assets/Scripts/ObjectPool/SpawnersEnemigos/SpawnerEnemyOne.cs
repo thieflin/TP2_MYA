@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpawnerEnemyOne : MonoBehaviour, ITurnsTP<EnemyOne, EnemyOne>
 {
-    public ObjectPool<EnemyOne> poolEnemigos;//Pool
+    public ObjectPool<EnemyOne> poolEnemigos;//Pool 
     private IFactoryT<EnemyOne> _enemyFactory; //Factory
     [SerializeField] private int _ammount;
     [SerializeField] private int initialPosX = 0, initialPosY; //Grid width

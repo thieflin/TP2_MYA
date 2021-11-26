@@ -43,7 +43,7 @@ public class BossPool : Weapon, ITurnsTP<BulletBoss, BulletBoss>
         return A;
     }
 
-    //Funciones de la interfaz de Spawners, se encargan de el primer spawn, el Get del pool y loopear
+    //Funciones de Weapons
     public override void Get()
     {
         for (int i = 0; i < ammount; i++)
